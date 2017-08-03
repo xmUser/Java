@@ -1,0 +1,8 @@
+package com.demo;
+
+class CalculatorTest {
+	public static void main(String[] args){
+		Calculator calculator = new Calculator();
+		
+	}
+}

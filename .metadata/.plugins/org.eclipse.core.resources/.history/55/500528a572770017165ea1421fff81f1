@@ -1,0 +1,16 @@
+package com.demo;
+
+Class Car {
+	int color; // 成员变量
+    int speed; // 成员变量
+ 
+    // 成员方法   
+    void startup() {
+        System.out.println("启动!");
+    }
+
+    // 成员方法
+    void run(int speed) {
+        System.out.println("我的速度是" + speed);
+    }
+}

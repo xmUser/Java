@@ -1,0 +1,9 @@
+package com.demo;
+
+public class Engine {
+    public double power;
+    
+    public Engine(int power) {
+        this.power = power;
+    }
+}

@@ -1,0 +1,27 @@
+package com.demo;
+
+public class Post {
+	private long id;
+    private String title;
+    private String content;
+    
+    public static int count = 0;
+    
+    {
+        title = "默认标题";
+        content = "默认内容";
+    }
+
+    static {
+    	count = 100;
+    }
+    
+    public static int getCount(){
+        return count;
+    }
+    
+    public Post() {
+        this.id = count++;;
+        System.out.println(this.id);
+    }
+}

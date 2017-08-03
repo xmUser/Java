@@ -1,0 +1,17 @@
+package com.demo;
+
+public class Post {
+	private long id;
+    private String title;
+    private String content;
+    
+    {
+        title = "默认标题";
+        content = "默认内容";
+    }
+    // 成员方法
+    void print() {
+        System.out.println(title);
+        System.out.println(content);
+    }
+}

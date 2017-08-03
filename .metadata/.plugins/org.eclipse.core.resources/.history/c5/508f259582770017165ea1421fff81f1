@@ -1,0 +1,13 @@
+package com.demo;
+
+public class Post {
+	private long id;
+    private String title;
+    private String content;
+    
+    // 成员方法
+    void print() {
+        System.out.println(title);
+        System.out.println(content);
+    }
+}

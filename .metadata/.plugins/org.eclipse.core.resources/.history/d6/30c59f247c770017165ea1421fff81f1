@@ -1,0 +1,11 @@
+package com.demo;
+
+public class Driver {
+	public static void main(String[] args) {
+        Car car = new Car();
+        car.color = 0xffffff;  // 修改color属性的值
+        int color = car.color; // 访问color属性的值，将其赋给其他变量
+        System.out.println(car.color); // 将color作为参数，打印
+        car.speed;
+    }
+}

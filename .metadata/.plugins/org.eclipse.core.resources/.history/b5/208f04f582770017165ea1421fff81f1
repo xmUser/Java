@@ -1,0 +1,19 @@
+package com.demo;
+
+public class Post {
+	long id;
+    private String title;
+    private String content;
+    
+    {
+        title = "默认标题";
+        content = "默认内容";
+    }
+
+    public Post() {
+    }
+    
+    public Post(long id) {
+        this.id = id;
+    }
+}
